@@ -1,12 +1,26 @@
 {
     "name": "avin/demo",
     "description": "Demo package for laravel.",
-    "keywords": ["laravel", "demo"],
+    "keywords": [
+        "laravel",
+        "demo"
+    ],
     "license": "MIT",
     "authors": [
         {
             "name": "avin",
             "email": "carcinogen75@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Avin\\Demo\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    }
 }
