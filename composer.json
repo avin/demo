@@ -1,0 +1,12 @@
+{
+    "name": "avin/demo",
+    "description": "Demo package for laravel.",
+    "keywords": ["laravel", "demo"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "avin",
+            "email": "carcinogen75@gmail.com"
+        }
+    ]
+}
